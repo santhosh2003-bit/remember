@@ -1,0 +1,30 @@
+.sidebarOptions {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+  cursor: pointer;
+  font-size: 25px;
+}
+.sidebarOptions:hover {
+  background-color: #e8f5fe;
+  border-radius: 30px;
+  color: aqua;
+  transition: color 100ms ease-out;
+}
+.sidebarOptions > .MuiSvgIcon-root {
+  padding: 10px 15px;
+}
+.sidebarOptions > h2 {
+  font-weight: 600;
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.done_icon {
+  color: aqua;
+}
+@media screen and (max-width: 688px) {
+  .sidebar_tweet {
+    display: none;
+  }
+}
